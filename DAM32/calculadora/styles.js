@@ -1,0 +1,78 @@
+import { StyleSheet } from 'react-native';
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#ECEFF1',
+    alignItems: 'center',
+    justifyContent: 'center',
+    padding: 20,
+  },
+  title: {
+    fontSize: 28,
+    fontWeight: '800',
+    marginBottom: 25,
+    color: '#263238',
+  },
+  resultBox: {
+    width: '90%',
+    minHeight: 70,
+    backgroundColor: '#FFFFFF',
+    borderRadius: 15,
+    justifyContent: 'center',
+    alignItems: 'flex-end',
+    padding: 15,
+    marginBottom: 20,
+    shadowColor: '#000',
+    shadowOpacity: 0.1,
+    shadowOffset: { width: 0, height: 3 },
+    elevation: 4,
+  },
+  resultText: {
+    fontSize: 28,
+    fontWeight: '700',
+    color: '#37474F',
+  },
+  input: {
+    borderWidth: 1,
+    borderColor: '#CFD8DC',
+    borderRadius: 12,
+    padding: 12,
+    width: '90%',
+    textAlign: 'center',
+    marginBottom: 14,
+    backgroundColor: '#FFFFFF',
+    fontSize: 16,
+    elevation: 2,
+  },
+  buttonsGrid: {
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    justifyContent: 'center',
+    marginTop: 20,
+    width: '90%',
+  },
+  button: {
+    width: '45%',
+    margin: '2.5%',
+    paddingVertical: 20,
+    borderRadius: 18,
+    alignItems: 'center',
+    justifyContent: 'center',
+    shadowColor: '#000',
+    shadowOpacity: 0.12,
+    shadowOffset: { width: 0, height: 3 },
+    elevation: 5,
+  },
+  blue: { backgroundColor: '#42A5F5' },
+  purple: { backgroundColor: '#7E57C2' },
+  green: { backgroundColor: '#66BB6A' },
+  red: { backgroundColor: '#EF5350' },
+  buttonText: {
+    color: '#fff',
+    fontSize: 24,
+    fontWeight: '700',
+  },
+});
+
+export default styles;
