@@ -1,4 +1,4 @@
-// App.js
+
 import React, { useState } from 'react';
 import { Text, View, TextInput, TouchableOpacity, StyleSheet, ScrollView } from 'react-native';
 
